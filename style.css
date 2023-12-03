@@ -1658,10 +1658,11 @@ body * {
 }
  
 
+
 @media screen and (max-width: 450px) {
 
   .home-img img {
-    width: 300px;
+    width: 320px;
   }
   
   .s4-container {
@@ -1777,6 +1778,12 @@ body * {
     width: 350px;
   }
   
+  .s5-top{
+    padding: 0.5rem;
+    margin: 0;
+    gap: .5rem;
+  }
+  
   .s5-top p{
     font-size: 15px;
     width: 350px;
@@ -1841,6 +1848,7 @@ body * {
   .started-btn, .watch-btn{
     width: 285px;
     text-align: center;
+    align-items: center;
   }
   
   .s9-logo img{
