@@ -1718,6 +1718,8 @@ body * {
   }
   
   .home {
+    margin: 0 auto;
+    padding: 0;
     max-width: 350px;
   }
   
@@ -1731,9 +1733,10 @@ body * {
     width: 350px;
   }
   
+  
   .s4-para p{
     font-size: 15px;
-    width: 350px;
+    width: 320px;
   }
   
   .s4-para h3{
@@ -1742,7 +1745,7 @@ body * {
   
   .info-container {
     max-width: 350px;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
   
   .s2-box,
@@ -1760,18 +1763,31 @@ body * {
     width: 350px;
   }
   
+  .section6-content, .s6-right, .s6-left{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .s6-right{
+    width: 350px;
+  }
+  
   .s6-para p{
     font-size: 17px;
     width: 350px;
   }
   
   .s5-top p{
-    font-size: 17px;
+    font-size: 15px;
     width: 350px;
   }
   
   .s5-top h3{
     font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .s5-top i{
     font-size: 20px;
   }
   
@@ -1782,6 +1798,12 @@ body * {
   
   .s4-container {
     max-width: 350px;
+  }
+  
+  .s4-content{
+    margin: 0;
+    padding: 0;
+    gap: 0;
   }
   
   .s9-content{
