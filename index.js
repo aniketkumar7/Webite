@@ -34,16 +34,34 @@ function myFunction() {
     document.getElementById("main").style.backgroundColor =
       "rgb(253, 242, 236)";
   }
-  
+
   document.add.classList("transition");
 }
 
-var copy = document.querySelector(".marquee-container").cloneNode(true);
-      document.querySelector(".marquee").appendChild(copy);
 
+// Get the menu button element by its id
+var menuBtn = document.getElementById("menu-btn");
 
+// Get the header element by its class name
+var header = document.getElementsByClassName("header")[0];
 
+// Add a click event listener to the menu button
+menuBtn.addEventListener("click", function() {
+  // Check if the header element is displayed or not
+  if (header.style.display === "none" ) {
+    // If the header element is not displayed, set its display to block
+    header.style.display = "flex";
+    menuBtn.add.classList.toggle("fa-times");
+    menuBtn.remove.classList.toggle("fa-bars");
+  } 
   
+  else {
+    // If the header element is displayed, set its display to none
+    header.style.display = "none";
+    menuBtn.add.classList.toggle("fa-bars");
+    menuBtn.remove.classList.toggle("fa-times");
+  }
   
+});
 
 
