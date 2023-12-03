@@ -51,7 +51,7 @@ menuBtn.addEventListener("click", function() {
   if (header.style.display === "none" ) {
     // If the header element is not displayed, set its display to block
     header.style.display = "flex";
-    menuBtn.add.classList.toggle("fa-times");
+    menuBtn.add.classList.toggle("fa-circle-xmark");
     menuBtn.remove.classList.toggle("fa-bars");
   } 
   
@@ -59,7 +59,7 @@ menuBtn.addEventListener("click", function() {
     // If the header element is displayed, set its display to none
     header.style.display = "none";
     menuBtn.add.classList.toggle("fa-bars");
-    menuBtn.remove.classList.toggle("fa-times");
+    menuBtn.remove.classList.toggle("fa-circle-xmark");
   }
   
 });
