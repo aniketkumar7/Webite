@@ -54,6 +54,9 @@ body * {
   box-shadow: 0 0 20px 0 var(--white4), 0 5px 5px 0px var(--grey);
 }
 
+
+/* Navbar */
+
 .navbar {
   padding: 1rem 2rem;
   display: grid;
@@ -131,6 +134,10 @@ body * {
   color: var(--black1);
 }
 
+
+/* Menu Bar */
+
+
 .header{
   display: none;
   justify-content: center;
@@ -177,7 +184,7 @@ body * {
 }
 
 
-
+/* Home Section */
 
 .home-section {
   gap: 2.5rem;
@@ -289,6 +296,9 @@ body * {
   box-shadow: 0 0 20px 0 rgba(100, 98, 98, 0.2), 0 20px 20px 0 var(--white3);
 }
 
+
+/* Section 2 */
+
 .heading3 {
   font-size: 24px;
   max-width: 900px;
@@ -344,6 +354,8 @@ body * {
   font-size: 1rem;
   color: var(--grey);
 }
+
+/* Section Container */
 
 .info-container {
   max-width: 1200px;
@@ -561,6 +573,8 @@ body * {
   padding: 4rem 0;
 }
 
+/* Section 7 */
+
 .s7-container {
   margin: auto;
   gap: 1rem;
@@ -648,6 +662,8 @@ body * {
   padding: 0;
 }
 
+
+/* Testimonials */
 
 .marquee{
   padding: 4rem;
