@@ -130,23 +130,22 @@ body * {
   color: var(--black1);
 }
 
-
-
 .header{
   display: none;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   position: absolute;
-  height: 70%;
-  background-color: wheat;
+  height: 100%;
+  background-color: var(--white2);
   left: 0;
   right: 0;
   top: 0;
 }
 
 .menu{
- height: 400px;
+  margin: 0 auto;
+  height: 400px;
   width: 400px;
 }
 
@@ -161,8 +160,19 @@ body * {
   gap: 2rem;
 }
 
+.menu .icons ul li a{
+  cursor: pointer;
+  color: var(--black1);
+}
+
+.menu .icons ul li a:hover{
+  color: var(--purple);
+}
+
 .bar{
+  display: none;
   z-index: 2;
+  font-size: 1.5rem;
 }
 
 
@@ -1007,8 +1017,12 @@ body * {
     padding: 2rem;
   }
 
-  .nav-container {
+  .nav-items, .buy-btn {
     display: none;
+  }
+  
+  .bar {
+    display: flex;
   }
   
   .s7-card {
