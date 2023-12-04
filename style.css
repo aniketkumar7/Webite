@@ -1841,13 +1841,17 @@ body * {
   }
   
   .s5-down p{
-    font-size: 14px;
+    font-size: 12px;
     width: 320px;
   }
   
   .s5-top h3{
     font-weight: 500;
     font-size: 14px;
+  }
+
+  .menu .icons{
+    padding: 2rem:
   }
   
   .s5-top i{
