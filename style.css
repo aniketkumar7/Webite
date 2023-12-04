@@ -1797,7 +1797,7 @@ body * {
   
   
   .s4-para p{
-    font-size: 14px;
+    font-size: 12px;
     width: 320px;
   }
   
@@ -1857,9 +1857,9 @@ body * {
   }
 
   .menu{
-    height: 100%;
+    height: 80%;
     width: fit-content;
-    padding: 0 1rem;
+    padding: 2rem;
   }
 
   .menu .icons{
