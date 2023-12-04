@@ -1842,7 +1842,7 @@ body * {
   
   .s5-down p{
     font-size: 12px;
-    width: 320px;
+    width: 290px;
   }
   
   .s5-top h3{
@@ -1906,6 +1906,7 @@ body * {
   }
   
   .started-btn, .watch-btn{
+    margin: 1rem;
     width: 250px;
     text-align: center;
     align-items: center;
