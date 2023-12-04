@@ -1859,7 +1859,7 @@ body * {
   .menu{
     height: 80%;
     width: fit-content;
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
 
   .menu .icons{
@@ -1918,7 +1918,7 @@ body * {
   }
   
   .started-btn, .watch-btn{
-    padding: 1rem;
+    margin: 1rem 2rem;
     width: 250px;
     text-align: center;
     align-items: center;
