@@ -1525,7 +1525,7 @@ body * {
   
   .marquee-card{
     width: 350px;
-    height: 300px;
+    height: 320px;
   }
   
   .marquee-para p{
@@ -1842,7 +1842,7 @@ body * {
   
   .s5-top p{
     font-size: 14px;
-    width: 350px;
+    width: 330px;
   }
   
   .s5-top h3{
@@ -1851,7 +1851,7 @@ body * {
   }
   
   .s5-top i{
-    font-size: 20px;
+    font-size: 18px;
   }
   
   .s7-card{
